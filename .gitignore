@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class neu1 {
+    public static void main(String[] args) {
+     //kulanicidan deger alinacak
+        int n,toplam=0;
+        Scanner input=new Scanner(System.in);
+        System.out.print("BIR NUMARA GIRINIZ:");
+        n=input.nextInt();
+         for (int i=1;i<n;i++){
+             if (n%i==0){
+                 toplam+=i;
+             }
+         }
+if (toplam==n){
+    System.out.println("MUKKEMMELSAYI:"+n);
+}else {
+    System.out.println("MUKKEMMEL SAYI DEGIL:"+n);
+}
+
+       }
+
+
+
+       }
+
